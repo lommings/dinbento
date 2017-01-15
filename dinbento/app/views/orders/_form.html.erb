@@ -15,6 +15,12 @@
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
+  <div class="field">
+    <%= f.label :Photo %>
+    <%= f.file_field :photo%>
+  </div>
+
+
 
   <div class="field">
     <%= f.label :phone %>
@@ -29,4 +35,5 @@
   <div class="actions">
     <%= f.submit %>
   </div>
+
 <% end %>
